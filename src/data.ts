@@ -359,6 +359,7 @@ type Menu = {
   desc?: string;
   img?: string;
   color: string;
+  tColor: string;
 }[];
 
 export const menu: Menu = [
@@ -369,6 +370,7 @@ export const menu: Menu = [
     desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
     img: "/temporary/m1.png",
     color: "white",
+    tColor: "black",
   },
   {
     id: 2,
@@ -377,6 +379,7 @@ export const menu: Menu = [
     desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
     img: "/temporary/m2.png",
     color: "black",
+    tColor: "white",
   },
   {
     id: 3,
@@ -385,5 +388,6 @@ export const menu: Menu = [
     desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
     img: "/temporary/m3.png",
     color: "white",
+    tColor: "black",
   },
 ];
